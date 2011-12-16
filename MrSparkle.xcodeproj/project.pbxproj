@@ -15,6 +15,13 @@
 		D5E44DFB149AFDC500E80956 /* JBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E44DFA149AFDC500E80956 /* JBSAppDelegate.m */; };
 		D5E44DFE149AFDC500E80956 /* JBSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E44DFD149AFDC500E80956 /* JBSViewController.m */; };
 		D5E44E01149AFDC500E80956 /* JBSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E44DFF149AFDC500E80956 /* JBSViewController.xib */; };
+		D5E44E09149AFDFD00E80956 /* UILabel+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E44E08149AFDFD00E80956 /* UILabel+Utilities.m */; };
+		D5E44E0B149AFE8000E80956 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E44E0A149AFE8000E80956 /* CoreText.framework */; };
+		D5E44E0D149B076600E80956 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E44E0C149B076600E80956 /* QuartzCore.framework */; };
+		D5E44E10149B173800E80956 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = D5E44E0E149B173800E80956 /* smoke.png */; };
+		D5E44E11149B173800E80956 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = D5E44E0F149B173800E80956 /* spark.png */; };
+		D5E44E13149B1B9A00E80956 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5E44E12149B1B9A00E80956 /* LICENSE.txt */; };
+		D5E44E15149B1DBF00E80956 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5E44E14149B1DBF00E80956 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +29,23 @@
 		D5E44DEA149AFDC500E80956 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D5E44DEC149AFDC500E80956 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5E44DEE149AFDC500E80956 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D5E44DF2149AFDC500E80956 /* MrSparkle-Info.plist */ = {isa = PBXFileReference; path = "MrSparkle-Info.plist"; sourceTree = "<group>"; };
+		D5E44DF2149AFDC500E80956 /* MrSparkle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MrSparkle-Info.plist"; sourceTree = "<group>"; };
 		D5E44DF4149AFDC500E80956 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5E44DF6149AFDC500E80956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D5E44DF8149AFDC500E80956 /* MrSparkle-Prefix.pch */ = {isa = PBXFileReference; path = "MrSparkle-Prefix.pch"; sourceTree = "<group>"; };
-		D5E44DF9149AFDC500E80956 /* JBSAppDelegate.h */ = {isa = PBXFileReference; path = JBSAppDelegate.h; sourceTree = "<group>"; };
+		D5E44DF8149AFDC500E80956 /* MrSparkle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MrSparkle-Prefix.pch"; sourceTree = "<group>"; };
+		D5E44DF9149AFDC500E80956 /* JBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBSAppDelegate.h; sourceTree = "<group>"; };
 		D5E44DFA149AFDC500E80956 /* JBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBSAppDelegate.m; sourceTree = "<group>"; };
-		D5E44DFC149AFDC500E80956 /* JBSViewController.h */ = {isa = PBXFileReference; path = JBSViewController.h; sourceTree = "<group>"; };
+		D5E44DFC149AFDC500E80956 /* JBSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBSViewController.h; sourceTree = "<group>"; };
 		D5E44DFD149AFDC500E80956 /* JBSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBSViewController.m; sourceTree = "<group>"; };
 		D5E44E00149AFDC500E80956 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JBSViewController.xib; sourceTree = "<group>"; };
+		D5E44E07149AFDFD00E80956 /* UILabel+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Utilities.h"; sourceTree = "<group>"; };
+		D5E44E08149AFDFD00E80956 /* UILabel+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Utilities.m"; sourceTree = "<group>"; };
+		D5E44E0A149AFE8000E80956 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D5E44E0C149B076600E80956 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D5E44E0E149B173800E80956 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		D5E44E0F149B173800E80956 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		D5E44E12149B1B9A00E80956 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D5E44E14149B1DBF00E80956 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,8 @@
 				D5E44DEB149AFDC500E80956 /* UIKit.framework in Frameworks */,
 				D5E44DED149AFDC500E80956 /* Foundation.framework in Frameworks */,
 				D5E44DEF149AFDC500E80956 /* CoreGraphics.framework in Frameworks */,
+				D5E44E0B149AFE8000E80956 /* CoreText.framework in Frameworks */,
+				D5E44E0D149B076600E80956 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,8 @@
 		D5E44DE9149AFDC500E80956 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5E44E0C149B076600E80956 /* QuartzCore.framework */,
+				D5E44E0A149AFE8000E80956 /* CoreText.framework */,
 				D5E44DEA149AFDC500E80956 /* UIKit.framework */,
 				D5E44DEC149AFDC500E80956 /* Foundation.framework */,
 				D5E44DEE149AFDC500E80956 /* CoreGraphics.framework */,
@@ -82,6 +101,12 @@
 				D5E44DFC149AFDC500E80956 /* JBSViewController.h */,
 				D5E44DFD149AFDC500E80956 /* JBSViewController.m */,
 				D5E44DFF149AFDC500E80956 /* JBSViewController.xib */,
+				D5E44E07149AFDFD00E80956 /* UILabel+Utilities.h */,
+				D5E44E08149AFDFD00E80956 /* UILabel+Utilities.m */,
+				D5E44E0E149B173800E80956 /* smoke.png */,
+				D5E44E0F149B173800E80956 /* spark.png */,
+				D5E44E12149B1B9A00E80956 /* LICENSE.txt */,
+				D5E44E14149B1DBF00E80956 /* README.txt */,
 				D5E44DF1149AFDC500E80956 /* Supporting Files */,
 			);
 			path = MrSparkle;
@@ -151,6 +176,10 @@
 			files = (
 				D5E44DF5149AFDC500E80956 /* InfoPlist.strings in Resources */,
 				D5E44E01149AFDC500E80956 /* JBSViewController.xib in Resources */,
+				D5E44E10149B173800E80956 /* smoke.png in Resources */,
+				D5E44E11149B173800E80956 /* spark.png in Resources */,
+				D5E44E13149B1B9A00E80956 /* LICENSE.txt in Resources */,
+				D5E44E15149B1DBF00E80956 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +193,7 @@
 				D5E44DF7149AFDC500E80956 /* main.m in Sources */,
 				D5E44DFB149AFDC500E80956 /* JBSAppDelegate.m in Sources */,
 				D5E44DFE149AFDC500E80956 /* JBSViewController.m in Sources */,
+				D5E44E09149AFDFD00E80956 /* UILabel+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
