@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5E44DEB149AFDC500E80956 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E44DEA149AFDC500E80956 /* UIKit.framework */; };
+		D5E44DED149AFDC500E80956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E44DEC149AFDC500E80956 /* Foundation.framework */; };
+		D5E44DEF149AFDC500E80956 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E44DEE149AFDC500E80956 /* CoreGraphics.framework */; };
+		D5E44DF5149AFDC500E80956 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5E44DF3149AFDC500E80956 /* InfoPlist.strings */; };
+		D5E44DF7149AFDC500E80956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E44DF6149AFDC500E80956 /* main.m */; };
+		D5E44DFB149AFDC500E80956 /* JBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E44DFA149AFDC500E80956 /* JBSAppDelegate.m */; };
+		D5E44DFE149AFDC500E80956 /* JBSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E44DFD149AFDC500E80956 /* JBSViewController.m */; };
+		D5E44E01149AFDC500E80956 /* JBSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E44DFF149AFDC500E80956 /* JBSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5E44DE6149AFDC500E80956 /* MrSparkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrSparkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E44DEA149AFDC500E80956 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5E44DEC149AFDC500E80956 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5E44DEE149AFDC500E80956 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5E44DF2149AFDC500E80956 /* MrSparkle-Info.plist */ = {isa = PBXFileReference; path = "MrSparkle-Info.plist"; sourceTree = "<group>"; };
+		D5E44DF4149AFDC500E80956 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5E44DF6149AFDC500E80956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5E44DF8149AFDC500E80956 /* MrSparkle-Prefix.pch */ = {isa = PBXFileReference; path = "MrSparkle-Prefix.pch"; sourceTree = "<group>"; };
+		D5E44DF9149AFDC500E80956 /* JBSAppDelegate.h */ = {isa = PBXFileReference; path = JBSAppDelegate.h; sourceTree = "<group>"; };
+		D5E44DFA149AFDC500E80956 /* JBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBSAppDelegate.m; sourceTree = "<group>"; };
+		D5E44DFC149AFDC500E80956 /* JBSViewController.h */ = {isa = PBXFileReference; path = JBSViewController.h; sourceTree = "<group>"; };
+		D5E44DFD149AFDC500E80956 /* JBSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBSViewController.m; sourceTree = "<group>"; };
+		D5E44E00149AFDC500E80956 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JBSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E44DE3149AFDC500E80956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E44DEB149AFDC500E80956 /* UIKit.framework in Frameworks */,
+				D5E44DED149AFDC500E80956 /* Foundation.framework in Frameworks */,
+				D5E44DEF149AFDC500E80956 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5E44DDB149AFDC400E80956 = {
+			isa = PBXGroup;
+			children = (
+				D5E44DF0149AFDC500E80956 /* MrSparkle */,
+				D5E44DE9149AFDC500E80956 /* Frameworks */,
+				D5E44DE7149AFDC500E80956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E44DE7149AFDC500E80956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E44DE6149AFDC500E80956 /* MrSparkle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E44DE9149AFDC500E80956 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5E44DEA149AFDC500E80956 /* UIKit.framework */,
+				D5E44DEC149AFDC500E80956 /* Foundation.framework */,
+				D5E44DEE149AFDC500E80956 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5E44DF0149AFDC500E80956 /* MrSparkle */ = {
+			isa = PBXGroup;
+			children = (
+				D5E44DF9149AFDC500E80956 /* JBSAppDelegate.h */,
+				D5E44DFA149AFDC500E80956 /* JBSAppDelegate.m */,
+				D5E44DFC149AFDC500E80956 /* JBSViewController.h */,
+				D5E44DFD149AFDC500E80956 /* JBSViewController.m */,
+				D5E44DFF149AFDC500E80956 /* JBSViewController.xib */,
+				D5E44DF1149AFDC500E80956 /* Supporting Files */,
+			);
+			path = MrSparkle;
+			sourceTree = "<group>";
+		};
+		D5E44DF1149AFDC500E80956 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5E44DF2149AFDC500E80956 /* MrSparkle-Info.plist */,
+				D5E44DF3149AFDC500E80956 /* InfoPlist.strings */,
+				D5E44DF6149AFDC500E80956 /* main.m */,
+				D5E44DF8149AFDC500E80956 /* MrSparkle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E44DE5149AFDC500E80956 /* MrSparkle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E44E04149AFDC500E80956 /* Build configuration list for PBXNativeTarget "MrSparkle" */;
+			buildPhases = (
+				D5E44DE2149AFDC500E80956 /* Sources */,
+				D5E44DE3149AFDC500E80956 /* Frameworks */,
+				D5E44DE4149AFDC500E80956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MrSparkle;
+			productName = MrSparkle;
+			productReference = D5E44DE6149AFDC500E80956 /* MrSparkle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E44DDD149AFDC400E80956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Threebit;
+			};
+			buildConfigurationList = D5E44DE0149AFDC400E80956 /* Build configuration list for PBXProject "MrSparkle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5E44DDB149AFDC400E80956;
+			productRefGroup = D5E44DE7149AFDC500E80956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E44DE5149AFDC500E80956 /* MrSparkle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E44DE4149AFDC500E80956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E44DF5149AFDC500E80956 /* InfoPlist.strings in Resources */,
+				D5E44E01149AFDC500E80956 /* JBSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E44DE2149AFDC500E80956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E44DF7149AFDC500E80956 /* main.m in Sources */,
+				D5E44DFB149AFDC500E80956 /* JBSAppDelegate.m in Sources */,
+				D5E44DFE149AFDC500E80956 /* JBSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5E44DF3149AFDC500E80956 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E44DF4149AFDC500E80956 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5E44DFF149AFDC500E80956 /* JBSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E44E00149AFDC500E80956 /* en */,
+			);
+			name = JBSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5E44E02149AFDC500E80956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5E44E03149AFDC500E80956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E44E05149AFDC500E80956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrSparkle/MrSparkle-Prefix.pch";
+				INFOPLIST_FILE = "MrSparkle/MrSparkle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5E44E06149AFDC500E80956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrSparkle/MrSparkle-Prefix.pch";
+				INFOPLIST_FILE = "MrSparkle/MrSparkle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E44DE0149AFDC400E80956 /* Build configuration list for PBXProject "MrSparkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E44E02149AFDC500E80956 /* Debug */,
+				D5E44E03149AFDC500E80956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E44E04149AFDC500E80956 /* Build configuration list for PBXNativeTarget "MrSparkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E44E05149AFDC500E80956 /* Debug */,
+				D5E44E06149AFDC500E80956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E44DDD149AFDC400E80956 /* Project object */;
+}
